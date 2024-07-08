@@ -16,6 +16,10 @@ body {
 
 .footer {
     background-color: #1F2937;
+    font-size: 24px;
+    color: #f9faf8;
+    text-align: center;
+    padding: 50px;
 }
 
 a {
@@ -26,7 +30,7 @@ a {
     
 }
 
-img {
+.img1 {
     max-width: 550px;
     
 }
@@ -70,7 +74,7 @@ ul {
 }
 
 
-button {
+.button {
     background-color: #3882F6;
     color: white;
     padding: 6px;
@@ -78,7 +82,91 @@ button {
     padding-right: 18px;
     border-radius: 8px;
     border:#3882F6 solid 2px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 60px;
+}
+
+.imgs {
+   width: 200px;
+}
+
+.infos {
+    width: 200px;
+}
+
+.space {
+    background-color: #e5e7eb;
+    padding: 200px;
+   
+
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    flex: 1;
+    justify-content: center;
+    width: 900px;
+    margin-left: 300px;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    padding-top: 10px;
+    margin-right: 200px;
+    justify-content: end;
+}
+
+.bar {
+    background-color: #3882F6;
+    width: 600px;
+    padding-top: 60px; 
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: white;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
+.call1 {
+    color: white;
+    font-weight: bold;
+}
+
+.call2 {
+    color: rgb(228, 226, 226);
+}
 
